@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "question": "What's your pick for dinner?",
+        "answers": [
+            {
+                "answerId" : 1,
+                "image" : "bbq.jpg",
+                "subtitle" : "Smoked BBQ",
+                "value" : 1
+            },
+            {
+                "answerId" : 2,
+                "image" : "dumplings.jpg",
+                "subtitle" : "Steamed Dumplings",
+                "value" : 0
+            }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "What's your favorite taste?",
+        "answers": [
+            {
+                "answerId" : "1",
+                "image" : "hearty.jpg",
+                "subtitle" : "Fatty and Hearty",
+                "value" : "1"
+            },
+            {
+                "answerId" : "2",
+                "image" : "leany.jpg",
+                "subtitle" : "Leany and Healthy",
+                "value" : "0"
+            }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Which dish do you prefer?",
+        "answers": [
+            {
+                "answerId" : "1",
+                "image" : "roll.jpg",
+                "subtitle" : "Cabbage Roll",
+                "value" : "1"
+            },
+            {
+                "answerId" : "2",
+                "image" : "stew.jpg",
+                "subtitle" : "Cabbage Stew",
+                "value" : "0"
+            }
+        ]
+      }
+]

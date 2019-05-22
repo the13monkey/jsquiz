@@ -46,7 +46,7 @@
 
 #quiz-questions {
     width: 100%;
-    height: 480px;  
+    height: 400px;  
 }
 
 #quiz-control {
@@ -64,13 +64,13 @@
     margin-right: 10px; 
 }
 
-#quiz-question-title {
+.quiz-question {
     width: 100%; 
     text-align: center; 
     height: 80px; 
 }
 
-#quiz-question-title h2 {
+.quiz-question {
     font-size: 18px;
     color: #161616b6;
 }
@@ -171,6 +171,19 @@
     display: inline-block; 
     margin: 10px;
     cursor: pointer; 
+}
+
+#copyright {
+    position: absolute; 
+    width: 100%;
+    text-align: center; 
+    bottom: 50px;
+    left: 0;
+    font-size: 12px;
+}
+
+#copyright a {
+    color: #000;
 }
 
 
