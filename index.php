@@ -20,12 +20,7 @@
         
         <div id="quiz-result">
             <p class="flex-center">Here are what you've selected.</p>
-            <div id="selected-answers">
-            <!--    <img src="bbq.jpg">
-                    <img src="hearty.jpg">
-                    <img src="roll.jpg">
-            -->
-            </div>
+            <div id="selected-answers"></div>
             <h1>Ready to see the result?</h1>
             <a href="#" id="submit">Submit</a>
             <a href="#" id="back">Not ready to submit. Do it again.</a>
