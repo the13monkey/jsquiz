@@ -23,14 +23,24 @@ $(document).ready(function(){
     });
 
     var scores = [];
+    var names = [];
 
     $('#next').click(function(){
         $('.current').hide().addClass('previous');
         if( $('.current').is(':last-child') ) {
             $('#quiz-result').show();
+            $('#next').hide();
             //fetch the selected answers
+            var name = $('.selected').data('name');
+            names.push(name);
+            console.log(names);
+            for (i=0; i<names.length; i++) {
+                $('#selected-answers').append('<img src="'+ names[i] +'">');
+            }
         } else {
             $('.current').next().removeClass('previous').show().addClass('current');
+            var name = $('.selected').data('name');
+            names.push(name);
         }
         $('.previous').removeClass('current');
 
@@ -59,5 +69,9 @@ $(document).ready(function(){
             }
         }); 
     }); 
+
+    $('#back').click(function(){
+        location.reload();
+    });
 
 });

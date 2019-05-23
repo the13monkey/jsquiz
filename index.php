@@ -21,9 +21,10 @@
         <div id="quiz-result">
             <p class="flex-center">Here are what you've selected.</p>
             <div id="selected-answers">
-                <img src="bbq.jpg">
-                <img src="hearty.jpg">
-                <img src="roll.jpg">
+            <!--    <img src="bbq.jpg">
+                    <img src="hearty.jpg">
+                    <img src="roll.jpg">
+            -->
             </div>
             <h1>Ready to see the result?</h1>
             <a href="#" id="submit">Submit</a>
@@ -59,7 +60,7 @@
                     $answersArray = $question->answers;
                     foreach ($answersArray as $answerArray) { ?>
                          <div class="quiz-question-answer">
-                            <img src="<?php echo $answerArray->image; ?>" class="answer" data-value="<?php echo $answerArray->value; ?>">
+                            <img src="<?php echo $answerArray->image; ?>" class="answer" data-value="<?php echo $answerArray->value; ?>" data-name="<?php echo $answerArray->image; ?>">
                             <p class="answer"><?php echo $answerArray->subtitle; ?></p>
                         </div>
                 <?php  } ?>
